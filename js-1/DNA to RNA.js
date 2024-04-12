@@ -8,5 +8,5 @@ function DNAtoRNA(dna) {
   // The 'i' flag is used to perform case-insensitive matching
   // The 'g' flag is used to perform a global match (find all matches rather than stopping after the first match)
   // The 'gi' flag is used to perform a global, case-insensitive match
-  return dna.replace(/T/gi, "U");
+  return dna.replace(/T/g, "U");
 }
