@@ -3,3 +3,5 @@
 function disemvowel(str) {
   return str.replace(/[aeiou]/gi, '');
 }
+
+// solving using for Loop
