@@ -11,3 +11,5 @@ function DNAtoRNA(dna) {
   return dna.replace('T', "U");
 }
 console.log(DNAtoRNA(dna)); // GCAU
+
+// Solving using for loop
