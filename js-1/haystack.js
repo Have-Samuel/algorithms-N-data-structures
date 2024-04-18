@@ -1,3 +1,4 @@
+
 let arry = ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"];
 
 const findNeedle = (arry) => {
@@ -9,3 +10,4 @@ const findNeedle = (arry) => {
     return arry;
 }
 console.log(findNeedle(arry));
+
