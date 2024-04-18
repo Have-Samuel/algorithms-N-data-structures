@@ -2,7 +2,7 @@ let arry = ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"];
 
 const findNeedle = (arry) => {
     for (let i = 0; i < arry.length; i++) {
-        if (arry[i] === 'hay') {
+        if (arry[i] === 'needle') {
             console.log(`found the needle at position, ${i}`)
         }
     }
