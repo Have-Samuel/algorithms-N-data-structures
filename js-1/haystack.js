@@ -1,4 +1,4 @@
-
+// Finding the needle out of the Array
 let arry = ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"];
 
 const findNeedle = (arry) => {
