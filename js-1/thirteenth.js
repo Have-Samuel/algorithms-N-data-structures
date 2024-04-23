@@ -4,6 +4,7 @@ function fridayTheThirteenths(start, end) {
 
   let friday13 = [];
   // loop through the years
+  // let i = start;
   for (let i = start; i <= end; i++) {
     let date = new Date(i, 0, 13);
     if (date.getDay() === 5) {
