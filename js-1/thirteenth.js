@@ -10,8 +10,3 @@ function fridayTheThirteenths(start, end) {
 // const dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"/* , … */];
 
 // console.log(dayNames[day]);
-
-// const xmas = new Date("1995-12-25");
-// const year = xmas.getYear();
-
-// console.log(xmas.getFullYear())
