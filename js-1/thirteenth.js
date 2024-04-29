@@ -1,6 +1,4 @@
 function fridayTheThirteenths(start, end) {
-  // let satrt = new Date(start);
-  // let end = new Date(end);
  
 }
 
