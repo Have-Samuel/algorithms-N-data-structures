@@ -7,4 +7,3 @@ function fridayTheThirteenths(start, end) {
 // const day = valentines.getDay();
 // const dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"/* , … */];
 
-// console.log(dayNames[day]);
