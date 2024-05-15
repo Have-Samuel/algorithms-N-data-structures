@@ -4,7 +4,7 @@ function fridayTheThirteenths(start, end) {
     for (let year = start; year <= end; year++) {
         for (let month = 0; month < 12; month++) {
             let date = new Date(year, month, 13);
-            if (date.getDay() === 2) {
+            if (date.getDay() === 5) {
             friday13.push(date);
             }
         }
