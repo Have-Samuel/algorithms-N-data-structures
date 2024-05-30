@@ -10,6 +10,9 @@ if (johnTeamAvg > mikeTeamAvg) {
     console.log('John\'s team wins with an average of ' + johnTeamAvg);
 } else if (mikeTeamAvg > johnTeamAvg) {
     console.log('Mike\'s team wins with an average of ' + mikeTeamAvg);
-} else {
+} else if (maryTeamAvg > johnTeamAvg && maryTeamAvg > mikeTeamAvg) {
+    console.log('Mary\'s team wins with an average of ' + maryTeamAvg);
+}
+ else {
     console.log('It\'s a draw');
 }
