@@ -7,6 +7,20 @@ function calculateAge(year) {
 
 let jonhAge = calculateAge(1990);
 let mikeAge = calculateAge(1948);
-let marryAge = calculateAge(1969);
-console.log(jonhAge, mikeAge, marryAge);
+let maryAge = calculateAge(1969);
+console.log(jonhAge, mikeAge, maryAge);
 
+// Function that retires the Reitirement age
+function yearsUntilRetirement(year, firstName) {
+    let age = calculateAge(year);
+    let retirement = 65 - age;
+    if (retirement > 0) {
+        console.log(`${firstName} retires in ${retirement} years`);
+    } else {
+        console.log(`${firstName} is already retired`);
+    }
+}
+
+yearsUntilRetirement(1994, 'John');
+yearsUntilRetirement(1928, 'Mike');
+yearsUntilRetirement(1999, 'Mary');
