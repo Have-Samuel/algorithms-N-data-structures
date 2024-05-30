@@ -6,13 +6,24 @@ const mikeTeamAvg = (95  + 94 + 123) / 3;
 const maryTeamAvg = (97 + 134 + 105) / 3;
 // maryTeamAvg = 112
 
-if (johnTeamAvg > mikeTeamAvg) {
+// if (johnTeamAvg > mikeTeamAvg) {
+//     console.log('John\'s team wins with an average of ' + johnTeamAvg);
+// } else if (mikeTeamAvg > johnTeamAvg) {
+//     console.log('Mike\'s team wins with an average of ' + mikeTeamAvg);
+// } else if (maryTeamAvg > johnTeamAvg && maryTeamAvg > mikeTeamAvg) {
+//     console.log('Mary\'s team wins with an average of ' + maryTeamAvg);
+// }
+//  else {
+//     console.log('It\'s a draw');
+// }
+
+// More Elaborate Solution
+if (johnTeamAvg > mikeTeamAvg && johnTeamAvg > maryTeamAvg) {
     console.log('John\'s team wins with an average of ' + johnTeamAvg);
-} else if (mikeTeamAvg > johnTeamAvg) {
+} else if (mikeTeamAvg > johnTeamAvg && mikeTeamAvg > maryTeamAvg) {
     console.log('Mike\'s team wins with an average of ' + mikeTeamAvg);
 } else if (maryTeamAvg > johnTeamAvg && maryTeamAvg > mikeTeamAvg) {
     console.log('Mary\'s team wins with an average of ' + maryTeamAvg);
-}
- else {
+} else {
     console.log('It\'s a draw');
 }
