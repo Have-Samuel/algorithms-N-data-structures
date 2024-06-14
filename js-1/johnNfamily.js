@@ -10,7 +10,7 @@ function tipCalculator(bill) {
     return percentage *bill;    
 }
 
-let bills = [124, 48, 268];
+let bills = [224, 48, 68];
 console.log(tipCalculator(40));
 
 const finalTip = [tipCalculator(bills[0]),
