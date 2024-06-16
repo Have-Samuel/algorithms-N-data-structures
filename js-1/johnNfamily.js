@@ -19,8 +19,10 @@ console.log(tipCalculator(300));
 const finalTip = [tipCalculator(bills[0]),
                  tipCalculator(bills[1]),
                  tipCalculator(bills[2])];
+// 2.console.Result: [30.6, 7.6, 18.8]
 
 const sum = [finalTip[0] + bills[0],
              finalTip[1] + bills[1],
              finalTip[2] + bills[2]]
+// 3.console.Result: [234.6, 45.6, 112.8]
 console.log(finalTip, sum);
