@@ -17,7 +17,7 @@ const john = {
         return this.bmi;
     }
 };
-
+// Using the Conditional Statements
 if (john.johnBMI() > mark.markBMI()) {
     console.log(`${john.name} has a higher BMI of ${john.bmi}`);
 } else if (mark.bmi > john.bmi) {
